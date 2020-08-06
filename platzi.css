@@ -1,3 +1,16 @@
 p {
     color:green;
 }
+.box{
+    background-color: brown;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    border: 2px solid blueviolet;
+    /** box-sizing: border-box; Respeta WIDTH Y HEIGHT**/
+    margin: 10px 20px 30px 40px;
+    /** margin va en el sentido del reloj**/
+}
+/**body{
+    margin:
+}**/
