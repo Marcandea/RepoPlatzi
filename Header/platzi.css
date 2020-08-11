@@ -61,3 +61,26 @@ body {
 .header__menu--profile img{
     margin-right: 8px;
 }
+
+.main{
+    color: white;
+}
+
+.main__title{
+    
+}
+
+.input{
+    color: white;
+    background-color: #AB88FF;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    height: 30px;
+    padding: 0px 20px;
+    width: 70%;
+}
+::placeholder{
+    color: white;
+}
