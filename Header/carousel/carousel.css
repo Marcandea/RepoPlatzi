@@ -88,7 +88,9 @@ body{
     width: 200px;
 }
 /*
-    1.
+    1. background first 3 - 0's color, 4 is transparence
+    4. transition of opacity.
+    6. abosulte in relation to elemente more near
 */
 .carousel-item__details{
     background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
@@ -102,7 +104,27 @@ body{
     right: 0;
     bottom: 0;
 }
-
+/*
+    Behavior .carousel-item__details
+*/
 .carousel-item__details:hover{
     opacity: 1;
+}
+
+/**/
+.carousel-details{
+    /*position: bottom;*/
+    margin-top: 160px;
+}
+/**/
+.carousel-details__img{
+    height: 20px;
+    width: 20px;
+}
+/**/
+.carousel-item__details--title{
+    color: white;
+}
+.carousel-item__details--subtitle{
+    color: white;
 }
