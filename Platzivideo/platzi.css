@@ -64,10 +64,15 @@ body {
 
 .main{
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .main__title{
     height: 25px;
+    margin-bottom: 30px;
 }
 
 .input{
