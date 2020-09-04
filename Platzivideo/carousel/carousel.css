@@ -1,16 +1,17 @@
 body{
     margin: 0px;
+    overflow-x: hidden;
 }
 
 /*1.- Width del 100% para que abarque toda la pantalla.
   2.- Con overflow establecemos la propiedad de scroll
   3.- padding del 30% para tener un margen de vista
   4.- Pos:Relative porque queremos que los elementos que hereden se ajusten con base en este elemento*/
-    
+
 .carousel{
     padding: 30px;
     position: relative;
-    overflow: scroll;
+    /*overflow: scroll;*/
     width: 100%;
 }
 
@@ -80,7 +81,7 @@ body{
 
 /*
     1 y 3. Define height and width according to size of item style
-    2. is for take the size original of image with cover. 
+    2. is for take the size original of image with cover.
 */
 .carousel-item__img{
     height: 250px;
